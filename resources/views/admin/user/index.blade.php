@@ -49,7 +49,7 @@
                               <td style="word-break: break-word;">{{ $user->email }}</td>
                               <td>
                                   @if($user->role === 'admin')
-                                  <span class="badge bg-danger text-white">{{ $user->role }}</span>
+                                  <span class="badge bg-primary text-white">{{ $user->role }}</span>
                                   @else
                                   <span class="badge bg-dark text-white">{{ $user->role }}</span>
                                   @endif
@@ -57,11 +57,11 @@
                               <td style="word-break: break-word;">{{ $user->alamat }}</td>
                               <td>
                                   <div class="d-flex gap-2">
-                                      <a href="{{ route('user.edit', $user->id) }}" class="btn btn-secondary btn-sm">Merubah</a>
+                                      <a href="{{ route('user.edit', $user->id) }}" class="btn btn-secondary btn-sm">Edit</a>
                                       <form action="{{ route('user.destroy', $user->id) }}" method="POST">
                                           @csrf
                                           @method('DELETE')
-                                          <button type="submit" class="btn btn-primary btn-sm">Menghapus</button>
+                                          <button type="submit" class="btn btn-danger btn-sm">Hapus</button>
                                       </form>
                                   </div>
                               </td>

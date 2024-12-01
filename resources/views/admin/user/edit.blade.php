@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card shadow-sm border-0">
-                <div class="card-header bg-primary text-white">
+                <div class="card-header bg-secondary text-white">
                     <h5 class="mb-0 fw-semibold">Edit Pengunjung / Staff</h5> <!-- Example header title -->
                 </div>
                 <div class="card-body p-4">

@@ -9,6 +9,14 @@ use Illuminate\Http\Request;
 class PengunjungController extends Controller
 {
     public function index() {
+
+        if (!session()->has('visited')) {
+            session()->flash('show_welcome', true);
+            session()->put('visited', true);
+        } else {
+            session()->forget('show_welcome');
+        }
+
         return view('pengunjung.dashboard');
     }
 

@@ -14,7 +14,7 @@ Project mempunyai 2 buah role
     
 Langkah menjalankan project sebagai berikut:
 
-1. Clone repositori ini ke direktori lokal anda dengan perintah `git clone https://github.com/Tony06-Z/udacoding-simple_crud.git`
+1. Clone repositori ini ke direktori lokal `git clone https://github.com/Tony06-Z/udacoding-simple_crud.git`
 2. Masuk ke direktori aplikasi dengan perintah `cd laravel-library-app`
 3. Jalankan perintah `composer install` 
 4. Jalankan perintah `cp .env.example .env` 

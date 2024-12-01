@@ -6,8 +6,8 @@ By : Toni Zulfandy
 
 Project dibuat menggunakan Laravel
 
-- Admin Id Library : admin
-- Admin Password   : admin123
+- Admin Id Library : `admin`
+- Admin Password   : `admin123`
 
 Project mempunyai 2 buah role 
     pengunjung dan admin
